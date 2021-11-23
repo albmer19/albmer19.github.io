@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Klassen und IDs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Eine Übung mit Boxen </h1>
+
+		<div class="blue">Hallo</div>
+		<div class="green">Hallo</div>
+		<div class="blue">Hallo</div>
+		<div class="green">Hallo</div>
+		<div class="blue">Hallo</div>
+		<div class="green">Hallo</div>
+		<div class="blue">Hallo</div>
+		<div class=" green">Hallo</div>
+		<div class="blue">Hallo</div>
+		<div class=" green">Hallo</div>
+
+</body>
+</html>

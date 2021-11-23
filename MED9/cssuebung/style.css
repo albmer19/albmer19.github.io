@@ -1,0 +1,19 @@
+body{ background-color: lightgreen; 
+}
+
+
+
+h1{ background-color: blue;
+	color:white;
+ }
+ p{ background-color: red;
+ }
+
+ 
+ ol{
+ 	background-color: pink;
+ 	border:2px solid black;
+ 	border-radius:20px;
+ 	border-color: darkgreen;
+ }
+ 	

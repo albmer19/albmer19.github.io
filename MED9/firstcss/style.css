@@ -1,0 +1,24 @@
+h1 { 
+	background-color: green;
+	text-decoration: underline; 
+	font-size: 46px; 
+}
+
+body {
+	background-color: red; 
+}
+
+p {
+	border: 6px dotted blue;
+ font-size: 50px;
+}
+ul {
+	border: dotted blue;
+	background-color: orange;
+	color: black; 
+}
+ol{
+	border: 6px dotted blue;
+	background-color: pink;
+	color:red;
+}

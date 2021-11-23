@@ -1,0 +1,18 @@
+
+p{
+	font-size: 20px;
+}
+.left{
+	float: left;
+	border: dotted darkred 10px;
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+}
+.right{
+	float: right;
+	border: double aquamarine 10px;
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+}
