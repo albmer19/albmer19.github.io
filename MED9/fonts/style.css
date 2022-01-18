@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Herr+Von+Muellerhoff&family=Neonderthaw&display=swap');
+
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin:30px;
+	font-family: Domine;
+	letter-spacing: 4px;
+}
+p{
+	font-size: 20px;
+	margin: 70px;
+	text-align: justify;
+	font-family: Neonderthaw;
+	column-count: 3;
+	line-height: 1,5;
+
+}
+.signature{
+	margin: 60px;
+	font-family:Herr Von Muellerhoff;
+	column-count: 1;
+	font-size: 70px;
+
+
+}
+
+body{
+	background: linear-gradient(146deg, rgba(80,246,179,1) 0%, rgba(233,68,84,1) 50%, rgba(249,255,104,1) 100%); ;
+}
