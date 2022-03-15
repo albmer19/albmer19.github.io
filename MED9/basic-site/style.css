@@ -1,0 +1,96 @@
+/*
+*Title: A website about Porsche cars;
+*Author: Albin Merkoshi;
+*Date: 15.03.2022;
+*/
+
+/*******************General Styles****************/
+
+body{
+	margin: 0;
+}
+
+/* Navigation */
+nav{
+	background-color: darkred;
+	height: 400px;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: center;
+
+}
+
+nav img{
+	border-radius: 70%;
+	height: 120px;
+}
+
+ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none; /* Removes th underilne decoration of a link */
+	color: white;
+	background-color: blue;
+	border-radius: 20px;
+	text-transform: uppercase; /* Shows the letters with all uppersace */
+
+}
+
+/*hover is used to mak  nice efect if we put the mouse over the link */
+ul li a:hover{
+	background-color: darkcyan;
+	color: yellow;
+}
+
+/* Header */
+header{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(photo3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/* How to use a background image */
+header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+}
+/* Footer */
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background: linear-gradient(197deg, rgba(255,238,140,1) 0%, rgba(148,0,13,1) 45%, rgba(215,145,75,1) 100%);
+
+}
+
+footer p{
+	font-size: 30px;
+	color: white;
+}
+
+section{
+	background-color: darkred;
+	height: 400px;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: center;
+
+	}
+	section li a:hover{
+	background-color: darkcyan;
+	color: yellow;
