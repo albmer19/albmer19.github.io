@@ -1,0 +1,66 @@
+:root{
+	scroll-behavior: smooth;
+}
+
+nav{
+	
+	background-image: url(photo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	padding: 30px;
+	margin: 0px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	position: fixed;
+	width:100% ;
+	box-sizing: border-box;
+
+}
+nav img{
+	border-radius: 60%;
+	height: 130px;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+ul li a{
+	margin: 10px;
+	padding: 30px;
+	text-decoration: none;
+    color: white;
+    background-color: blue;
+	border-radius: 20px;
+	text-transform: uppercase; /* Shows the letters with all uppersace */
+
+}
+ul li a:hover{
+	background-color: darkcyan;
+	color: yellow;
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(photo2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+
+}
+section{
+	padding: 100px;
+}
+#link1{
+	background-color: lightcoral;
+}
+#link2{
+	background-color:lightgrey;
+}
+#link3{
+	background-color: lightsalmon;
+}
