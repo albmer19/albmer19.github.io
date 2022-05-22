@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Tapestry&display=swap');
+body{
+   margin: 0;
+}
+
+nav{
+	background-image: url(nav-background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 260px;
+	display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: center;
+	padding: 30px;	
+}
+
+nav img{
+	border: solid red 3px;
+    border-radius: 70%;
+	height: 170px;
+}	
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none; /* Removes the underilne decoration of a link */
+	color: white;
+	background-color: blue;
+	border-radius: 20px;
+	text-transform: uppercase; /* Shows the letters with all uppersace */
+	font-family: Tapestry;
+}
+
+/*hover is used to make  nice efect if we put the mouse over the link */
+ul li a:hover{
+	background-color: darkcyan;
+	color: yellow;
+}
+
+/* Header */
+.header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:url(background-img.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	font-family: Tapestry;
+}
+/*  section of the first page*/
+#home section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(152deg, rgba(0,0,0,1) 0%, rgba(117,31,31,1) 100%);
+    margin: 0px; 
+    height: 300px;
+}
+
+#home section h1{
+    position: absolute;
+    top: 720px;
+    left:450px;
+    background-color: gray ; 
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 40%;
+}
+#home h1:hover{
+	background-color: yellow;
+	color: red;
+}
+#home ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#home ul span{
+	background-color: yellow;
+	padding: 15px;
+	margin: 30px;
+	border: dashed red 3px;
+	border-radius: 20%;
+}
+
+#home ul span:hover{
+	background-color: darkcyan;
+	color: yellow;
+}
+/*header of the second page*/
+#about header {
+	position: relative;
+}
+
+#about header h1{
+	position: absolute;
+	padding: 20px;
+	left: 467px;
+	top: 5px;
+	border-radius: 45%;
+}
+
+#about header p{
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+	margin:10px;
+	font-size: 25px;
+	position: absolute;
+	left: 3px;
+	top: 200px;
+	font-family: Caveat;
+}
+/*main of the second page*/
+#about main{
+	background-image:url(main.jpg);
+	background-size: contain;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 300px;
+}
+
+#about main span{
+	background-color: rgba(245, 119, 0, 0.7);
+	 border-radius: 40%;
+	 padding: 30px;
+}
+
+#about main span:hover{
+	background-color: yellow;
+	color: red;
+}
+/*main in the third page*/
+#products main{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 10px;
+	background: linear-gradient(152deg, rgba(0,0,0,1) 0%, rgba(117,31,31,1) 100%);
+}
+/*footer is the same for all pages*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px;
+	background: linear-gradient(152deg, rgba(0,0,0,1) 0%, rgba(117,31,31,1) 100%);
+	height: 150px;
+}
+
+footer span{
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 30px;
+	border-radius:30px ;
+	font-family: Caveat;
+	font-size: 25px;
+}
+/*here is the main structure of the Article*/
+article{
+	position: relative;
+	border: solid red 3px;
+	margin: 20px;
+}
+article .image {
+	height: 250px;
+	width: 300px;
+	padding: 25px;
+
+}
+
+article .text{
+	height: 150px;
+	width: 300px;
+	background-color: white;
+	padding: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column ;
+	font-family: Caveat;
+
+}
+
+article .text footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	color: darkgrey;
+}
+
+article header{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+article header span{
+	margin-right: 8px;
+}
+article .box{
+	background-color: red;
+	color: white ;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 6px;
+	position: absolute;
+	left: 0px;
+	top: 273px;
+	font-family: Tapesrty;
+}
+/*here are the background-images for every single Article*/
+#stratocaster .image {
+	background-image: url(stratocaster.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#telecaster .image {
+	background-image: url(telecaster.jpg);
+	background-size: contain;
+	background-position: center;
+}
+
+#ibanez-rg .image {
+	background-image: url(Ibanez_RG.jpg);
+	background-size: contain;
+	background-position: center;
+}
+
+#classic .image {
+	background-image: url(Ibanez-clasic.jpg);
+	background-size: contain;
+	background-position: center;
+}
+
+#Les-Paul .image {
+	background-image: url(les-paul.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#SG .image {
+	background-image: url(SG-guiar.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#ES .image {
+	background-image: url(Gibson-ES.jpg);
+	background-size: contain;
+	background-position: center;
+}
