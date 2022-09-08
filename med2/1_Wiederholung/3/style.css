@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+	font-family: Roboto, sans-serif;
+}
+h1{
+	height: 150px;
+	width: 250px;
+	background-color: lightgreen;
+	font-family: ;
+}
+
+.yellow{
+	min-height: 100px;
+	width: 500px;
+	background-color: yellow;
+
+}
+
+.red{
+	height: 500px;
+	width: 100px;
+	background-color: red;
+}
