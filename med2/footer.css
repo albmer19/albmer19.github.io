@@ -1,0 +1,47 @@
+body{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+footer{
+	background-color: forestgreen;
+	display:flex ;
+	justify-content:space-between;
+	align-items: stretch;
+	
+	
+}
+div{
+	padding: 10px;
+	margin: 10px;
+	
+	width: 25%;
+}
+div:last-child{
+	width: 50%;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+a:hover{
+	background-color: darkgoldenrod;
+	color: blueviolet;
+}
+p{
+	color: white;
+}
+@media(max-width: 768px) {
+	footer{
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+
+}
+
+
+
