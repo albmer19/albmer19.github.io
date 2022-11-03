@@ -1,0 +1,23 @@
+.container{ 
+  width: 500px;
+  height: 300px;
+  display: grid;
+  column-gap: 30px;
+  row-gap:10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px auto;
+  background-color: seagreen;
+  padding: 5px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+div{
+	background-color: yellow;
+	border: solid 2px;
+	padding: 20px;
+	text-align: center ;
+}
+.item4{
+	grid-column: 1/3;
+	 
+}
